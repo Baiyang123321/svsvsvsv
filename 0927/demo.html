@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="demo.css" rel="stylesheet">
+</head>
+<body>
+<div class="main">
+    <div style="background-color: aqua;" id="heard">
+        <b>信息统计表</b>
+    </div>
+    <div id="lmain">
+        <div id="line">
+            <div class="lline"><b>姓名:</b></div>
+            <div class="rline">&nbsp;
+                <input type="text" name="userName" class="text"/>
+            </div>
+        </div>
+        <div id="line">
+            <div class="lline"><b>年龄:</b></div>
+            <div class="rline">&nbsp;
+                <input type="text" name="userAge" class="text"/>
+            </div>
+        </div>
+        <div id="line">
+            <div class="lline"><b>性别:</b></div>
+            <div class="rline">
+                <table>
+                    <tr>
+                        <td>&nbsp;
+                            <input type="radio" name="userSex" class="sex" value="nan" checked>男
+                            <input type="radio" name="userSex" class="sex" value="nv">女
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="line5">
+            <div class="lline"><b>爱好:</b></div>
+            <div class="rline">
+                <table>
+                    <tr>
+                        <td>&nbsp;
+                            <input type="checkbox" name="userLike" class="like" value="">旅游<br>&nbsp;
+                            <input type="checkbox" name="userLike" class="like" value="">登山<br>&nbsp;
+                            <input type="checkbox" name="userLike" class="like" value="">健身<br>&nbsp;
+                            <input type="checkbox" name="userLike" class="like" value="">游泳<br>&nbsp;
+                            <input type="checkbox" name="userLike" class="like" value="">上网
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="line">
+            <div class="lline"><b>学历:</b></div>
+            <div class="rline">
+                <table>
+                    <tr>
+                        <td>&nbsp;
+                            <select>
+                                <option>---学历---</option>
+                                <option>---专科---</option>
+                                <option>---本科---</option>
+                            </select></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="line5">
+            <div class="lline"><b>自我介绍:</b></div>
+            <div class="rline"
+            ">
+            <table>
+                <tr>
+                    <td colspan="5" style="text-align:left;">&nbsp;
+                        <textarea cols="20" rows="5" style="overflow-y:scroll;">
+						</textarea>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div id="line">
+        <div class="lline"></div>
+        <div class="rline">
+            <table>
+                <tr>
+                    <td colspan="2">&nbsp;
+                        <input type="submit" class="register" value="提交">
+                        <input type="reset" class="reset" value="重置">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
