@@ -1,0 +1,51 @@
+span{
+    text-align: center;
+}
+input{
+    width: 260px;
+    background: transparent;
+    border: none;
+    outline: none;
+    height: 30px;
+}
+p{
+    height: 10px;
+    line-height: 10px;
+}
+.sus{
+    display: block;
+    width: 16%;
+    height: 35px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    line-height: 35px;
+    background: -webkit-linear-gradient(left,#1f6efb,#15c4fb);
+    border-radius: 5px;
+    margin: auto;
+    text-decoration: none;
+    border: white;
+}
+.username{
+    border-bottom: 1px solid;
+    width: 30%;
+    margin: auto;
+}
+.passwd{
+    border-bottom: 1px solid;
+    width: 30%;
+    margin: auto;
+}
+.rightPasswd{
+    border-bottom: 1px solid;
+    width: 30%;
+    margin: auto;
+}
+.box{
+    margin-top: 10%;
+}
+img{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}

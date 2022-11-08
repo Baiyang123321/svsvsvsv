@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>对注册页面进行验证</title>
+    <link rel="stylesheet" href="css/8-1-1.css">
+    <script rel="script" src="js/8-1-1.js"></script>
+</head>
+<body>
+<form name="myFrom" onsubmit="return check()">
+    <div class="box">
+        <div class="username">
+            <span><img src="img/yh.png"></span>
+            <img src="img/bt.png">
+            <input type="text" placeholder="用户名" class="null" id="ua" name="fname">
+        </div>
+        <p></p>
+        <div class="passwd">
+            <span><img src="img/mm.png"></span>
+            <img src="img/bt.png">
+            <input type="text" placeholder="密码" class="null" id="pd" onblur="lengths()">
+        </div>
+        <p></p>
+        <div class="rightPasswd">
+            <span><img src="img/qrmm.png"></span>
+            <img src="img/bt.png">
+            <input type="text" placeholder="确认密码" class="null" id="qpd" onclick="return validate()">
+        </div>
+        <p></p>
+        <div class="login">
+            <button class="sus">登录</button>
+        </div>
+    </div>
+</form>
+</body>
+</html>
