@@ -1,0 +1,58 @@
+div.d1 {
+    width: 50px;
+    height: 70px;
+    background: red;
+    -webkit-transition: width 1s;
+    transition: width 1s;
+
+}
+
+div.d2 {
+    width: 50px;
+    height: 70px;
+    background: blue;
+    margin-top: 5px;
+    -webkit-transition: width 1s;
+    transition: width 1s;
+}
+
+div:hover {
+    width: 200px;
+}
+
+.p1 {
+
+    color: yellow;
+    font-size: 30px;
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0s;
+}
+
+.p1:hover::before {
+
+    content: "这是一个蓝色的div";
+    font-size: 20px;
+
+}
+.p2 {
+
+    color: yellow;
+    font-size: 30px;
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0s;
+}
+
+.p2:hover::before {
+
+    content: "这是一个红色的div";
+    font-size: 20px;
+
+}
