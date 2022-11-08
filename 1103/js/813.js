@@ -1,5 +1,5 @@
 function check(){
-    //获取用户名文本框
+
     var username = document.getElementById("ua");
     var password = document.getElementById("pd");;
     //验证用户名
